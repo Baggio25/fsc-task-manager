@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { forwardRef } from "react";
 
 import InputErrorMessage from "./InputErrorMessage";
@@ -8,7 +9,7 @@ const Input = forwardRef(({ labelText, errorMessage, ...rest }, ref) => {
     <div className="flex flex-col space-y-1 text-left">
       <InputLabel htmlFor={rest.id}>{labelText}</InputLabel>
       <input
-        className="outline-brand-primary placeholder:text-brand-text-gray rounded-lg border border-solid border-[#ECECEC] px-4 py-3 placeholder:text-sm"
+        className="rounded-lg border border-solid border-[#ECECEC] px-4 py-3 outline-brand-primary placeholder:text-sm placeholder:text-brand-text-gray"
         {...rest}
         ref={ref}
       />
@@ -18,5 +19,12 @@ const Input = forwardRef(({ labelText, errorMessage, ...rest }, ref) => {
 });
 
 Input.displayName = "Input";
+
+Input.propTypes = {
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  errorMessage: PropTypes.string,
+  placeholder: PropTypes.string,
+};
 
 export default Input;
