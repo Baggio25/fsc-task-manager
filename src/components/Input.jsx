@@ -22,7 +22,7 @@ Input.displayName = "Input";
 
 Input.propTypes = {
   id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  labelText: PropTypes.string.isRequired,
   errorMessage: PropTypes.string,
   placeholder: PropTypes.string,
 };
