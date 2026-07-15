@@ -1,52 +1,24 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "Estudar FSC",
-      "description": "Estudar para a prova de FSC",
+      "id": "9e540bb6-deff-4a56-88e0-568cb1321912",
+      "title": "Teste",
       "time": "morning",
-      "status": "done"
-    },
-    {
-      "id": "2",
-      "title": "Ler livro",
-      "description": "Ler o livro de matemática",
-      "time": "morning",
-      "status": "done"
-    },
-    {
-      "id": "3",
-      "title": "Treinar",
-      "description": "Treinar para a competição de natação",
-      "time": "afternoon",
-      "status": "in_progress"
-    },
-    {
-      "id": "4",
-      "title": "Fazer compras",
-      "description": "Comprar os ingredientes para o jantar",
-      "time": "afternoon",
-      "status": "in_progress"
-    },
-    {
-      "id": "5",
-      "title": "Descansar",
-      "description": "Assistir um filme com a família",
-      "time": "evening",
+      "description": "teste",
       "status": "not_started"
     },
     {
-      "id": "6",
-      "title": "Meditar",
-      "description": "Meditar por 10 minutos",
+      "id": "6eed7ef3-e4d5-4e97-bc0c-df62a090bc6c",
+      "title": "Teste",
       "time": "evening",
+      "description": "Teste",
       "status": "not_started"
     },
     {
-      "id": "7b396dde-5daa-4b8c-8a80-7f0a51dd7c7b",
-      "title": "Consulta ao dentista",
+      "id": "f1cd0238-a650-4021-8eac-fb2d8cb0926a",
+      "title": "Estudar",
       "time": "afternoon",
-      "description": "Manutenção de aparelho",
+      "description": "Estudar react js",
       "status": "not_started"
     }
   ]
