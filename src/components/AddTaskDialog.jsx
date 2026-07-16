@@ -107,9 +107,14 @@ const AddTaskDialog = ({ isOpen, handleClose, onSubmitSuccess }) => {
                   autoFocus
                   errorMessage={titleError?.message}
                   ref={titleRef}
+                  disabled={isLoading}
                 />
 
-                <TimeSelect errorMessage={timeError?.message} ref={timeRef} />
+                <TimeSelect
+                  errorMessage={timeError?.message}
+                  ref={timeRef}
+                  disabled={isLoading}
+                />
 
                 <Input
                   id="description"
@@ -117,6 +122,7 @@ const AddTaskDialog = ({ isOpen, handleClose, onSubmitSuccess }) => {
                   placeholder="Descreva a tarefa"
                   errorMessage={descriptionError?.message}
                   ref={descriptionRef}
+                  disabled={isLoading}
                 />
 
                 <div className="flex gap-3">
